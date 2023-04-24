@@ -1,0 +1,12 @@
+.duration{
+    background-color: rgb(31, 31, 31);
+    width:40px;
+    height: 18px;
+    color:white;
+    border-radius:3px;
+    position:absolute;
+    top:95px;
+    right:5px;
+    font-size:12px;
+    opacity:0.9;
+}

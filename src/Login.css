@@ -1,0 +1,77 @@
+.container{
+width:100%;
+height:100%;
+display:flex;
+justify-content: center;
+align-items: center;
+padding: 30px;
+/* border: 3px solid red;   */
+}
+body
+{
+    /* background-image: url("https://zeb-consulting.com/files/styles/content_layout_default/shared/media/images/2020-09/200924_Podcast_Sound_of_Finance_1920x1080_dl_e3_0.jpg.webp?itok=CPsBMUP9"); */
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nj{
+    padding: 5px 30px 5px 30px;
+    /* backdrop-filter: blur(1px);
+    -webkit-backdrop-filter: blur(1px); */
+     /* border: 3px solid red; */
+    border-radius: 10px;
+   
+}
+.Log{
+    width:100vw;
+    height:100vh;
+}
+p,.textclr
+{
+    color: #fff;
+    font-size: small;
+}
+.textclrL{
+    color: #fff;
+    font-weight: 750;
+    font-size: larger;
+    z-index: 10;
+    flex: 1;
+    margin-top: 10px;
+}
+#EmailInput,#rEmailInput,#exampleInputPassword1{
+    background: rgba(255,255, 255, 0.2);
+    border: 1px solid grey;
+    color: #fff;
+}
+#EmailInput::placeholder,#rEmailInput::placeholder,#exampleInputPassword1::placeholder{
+    color: #fff;
+  }
+.btn{
+backdrop-filter: blur(8.5px);
+-webkit-backdrop-filter: blur(8.5px);
+border: 1px solid #fff;
+color: #fff;
+}
+.btn:hover{
+backdrop-filter: blur(8.5px);
+-webkit-backdrop-filter: blur(8.5px);
+border: 1px solid #fff;
+color: grey;
+}
+.re{
+padding-top: 5px;
+/* border: 3px solid black; */
+}
+*
+{
+    font-weight: 600;
+}
+.icon{
+    justify-content: space-around;
+}
+.k{
+    border: 1px solid grey;
+    margin: 10px;
+}
